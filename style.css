@@ -1,0 +1,41 @@
+body{
+    background-image: url("./image/chatt_room_message_show.png");
+}
+.box{
+    margin-top:20%;
+    margin-left:42%;
+}
+.box-page{
+    height:200px;
+    width:250px;
+    text-align: center;
+}
+.box-page i{
+    font-size:200px;
+    color:green;
+}
+.box-name input{
+    margin-top:20px;
+    width:30%;
+    height:30px;
+    border-radius:8px;
+    font-size:25px;
+    outline: none;
+    background-color: chartreuse;
+}
+.box-name select{
+    height:30px;
+    /* border-radius:10px; */
+    cursor: pointer;
+    font-size:25px;
+    /* color: chartreuse; */
+    outline: none;
+}
+input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;margin: 0;
+  }
+
+
+
+/* Login Page CSS */

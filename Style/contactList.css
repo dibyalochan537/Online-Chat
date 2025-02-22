@@ -1,0 +1,19 @@
+button{
+    cursor: pointer;
+}
+.open-contact button{
+    background-color: transparent;
+    margin-top:140%;
+    margin-left:75%;
+    position:relative;
+}
+.open-contact i{
+    font-size: 40px;
+    color: green;
+}
+#contactList{
+    display:none;
+}
+.ncl-nav{
+    display: flex;
+}

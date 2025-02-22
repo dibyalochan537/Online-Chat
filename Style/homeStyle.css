@@ -1,0 +1,228 @@
+*{
+    margin:0;
+    padding: 0;
+    border:0;
+}
+body{
+    background-color: wheat;
+    margin:0;
+    border:0;
+    width:auto;
+}
+header{
+    
+}
+.nav-bar{
+    
+}
+.logo-name-nav-bar p{
+    font-size:40px;
+}
+.main-div{
+    margin-top:50px;
+    height:auto;
+    width:auto;
+    display:flex;
+}
+/* Action-div */
+
+
+.action-div{
+    width:5%;
+    height:400px;
+}
+.chatting-direct {
+    height:60%;
+    width:auto;
+    margin-top:20%;
+    display: grid;
+}
+.chatting-setting-archive{
+    height:60%;
+    width:auto;
+    margin-top:197px;
+    /* background-color: blue; */
+}
+.b-div {
+    width:60%;
+    margin-left:20%;
+    font-size: 35px;
+    /* background-color: red; */
+    padding-bottom:35px;
+}
+.b-div button{
+    font-size: 30px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.a-div{
+    width:60%;
+    margin-left:20%;
+    font-size: 30px;
+    padding-bottom:30px;
+}
+.a-div button{
+    font-size: 30px;
+    background-color: transparent;
+    border-color: transparent;
+}
+ /* close action div */
+.chat-details{
+    background-color: white;
+    width:95%;
+    height:697px;
+    display: flex;
+    border-top-left-radius:10px;
+    border:0.3px solid black;
+    
+}
+
+.chat-room-div{
+    background-color: yellow;
+    width:75%;
+    height:697px;
+    border-left: .5px solid black;
+}
+/* For chatt room */
+.profile-div-top{
+    width:auto;
+    height:10%;
+    background-color: white;
+    border-bottom:0.2px solid black;
+    display: flex;
+    align-items: center;
+}
+.message-type-div{
+    width:auto;
+    height:9.7%;
+    background-color: white;
+    border-bottom:0.2px solid black;
+    border-top:0.2px solid black;
+}
+#send{
+    
+}
+/* Chatting contact div */
+.chats-list-div{
+    border-top-left-radius:10px;
+    background-color:white;
+    width:25%;
+    height:697px;
+}
+.type-of-chat{
+    width:auto;
+    height:10%;
+    background-color:white;
+    border-top-left-radius:10px;
+}
+.search-chat{
+    width:auto;
+    height:5%;
+    align-content: center;
+}
+.search-chat input{
+    width:80%;
+    height:90%;
+    margin-left:10%;
+    border-radius: 10px;
+    border:.3px solid black;
+}
+/* Profile-bar-div-chatt-room */
+
+
+/* Personal-message-operation */
+
+/* Chatting message top */
+.profile-photo{
+    width:7%;
+    height:100%;
+    /* background-color: red; */
+}
+.name-last-seen{
+    width:40%;
+    height:100%;
+    /* background-color: blue; */
+}
+.profile-photo i{
+    font-size:380%;
+    margin:7%;
+}
+.lseen-name p{
+    margin-top:5px;
+    font-size: 20px;
+    height:5px;
+    padding:5px;
+}
+.vc-ac-search-message{
+    width:15%;
+    height:70%;
+    background-color:aliceblue;
+    margin-left:38%;
+    display:flex;
+}
+.personal-vvm{
+    font-size: 30px;
+    width:33%;
+    margin-left:7%;
+    /* background-color: blue; */
+    height:fit-content;
+    margin-top:5%;
+}
+.personal-vvm button{
+    font-size:80%;
+    background-color: transparent;
+    border-color: transparent;
+}
+.personal-vvm:hover{
+    border-bottom:4px solid black;
+}
+/* Message shoe room */
+.message-show-div{
+    background-image: url("../image/chatt_room_message_show.png");
+    height:80%;
+    width:auto;
+    /* background-color:transparent; */
+}
+
+
+/* Button-chatt room */
+.message-type-div{
+    display: flex;
+    align-items: center;
+}
+.emoji-button-tag{
+    width:4%;
+    /* background-color: red; */
+}
+.file-photo-select-attach{
+    width:4%;
+    /* background-color: saddlebrown; */
+}
+.mesage-type-here{
+    width:88%;
+    /* background-color: blue; */
+}
+.mesage-type-here input{
+    font-size:100%;
+    width:97%;
+    border:transparent;
+    background-color: transparent;
+}
+.mesage-type-here input:focus{
+    outline: none;
+}
+.voice-message{
+    width:4%;
+    /* background-color: salmon; */
+}
+.btm-height{
+    height:60%;
+    font-size:170%;
+    align-content: center;
+    padding:5px;
+}
+.btm-height button{
+    font-size:80%;
+    background-color: transparent;
+    border-color: transparent;
+}

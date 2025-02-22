@@ -1,0 +1,49 @@
+#openChatListSearch{
+    display:none;
+    background-color:white;
+}
+.inputNavContactChat{
+    font-size:17px;
+    margin-top:10px;
+    outline: none;
+    background-color: transparent;
+    border: transparent;
+}
+.keyboard button{
+    background-color: transparent;
+    border: none;
+    margin-top:10px;
+    margin-right:5px;
+}
+.keyboard i{
+    font-size:25px;
+}
+.nav-contact-list{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    color:white;
+    border-top-left-radius:8px;
+}
+.nav-back-btn{
+    width:10%;
+}
+.nav-back-btn button{
+    margin-left:10%;
+
+}
+.cldbtn{
+    background-color:transparent;
+    border:none;
+}
+.cldbtn i{
+    font-size: 30px;
+    align-items: center;
+    margin:5px;   
+}
+.select-contact p{
+    font-size:15px;
+}
+.invite-refresh{
+   width:5%;
+}

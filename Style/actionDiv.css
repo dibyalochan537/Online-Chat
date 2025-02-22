@@ -1,0 +1,59 @@
+.profile-formPopup{
+    display: none;
+    width:35%;
+    height:80%;
+    position:absolute;
+    top:22%;
+    left:5%;
+    /* background-color: red; */
+    border:2px solid black;
+    border-radius:10px;
+    background-color: antiquewhite;
+}
+.profile-formPopup p{
+   margin-top:35px;
+   height:5px;
+   font-size:40px;
+}
+.pppname{
+    height:100px;
+    /* background-color:hotpink; */
+}
+.profile-image{
+    height:150px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+.image-div-popup{
+    height:150px;
+    width:150px;
+    /* background-color:red; */
+    border-radius:50%;
+}
+.image-div-popup img{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    background-size:contain;
+}
+.about-profile-popup{
+    height:100px;
+    /* background-color: yellow; */
+}
+.ppp-phnumber{
+    height:100px;
+    /* background-color: aqua; */
+}
+.logout-div{
+    margin-top:0%;
+    text-align: right;
+}
+.logout-div button{
+    font-size: 30px;
+    margin-right:5%;
+    border-radius: 10px;
+    background-color: orangered;
+}
